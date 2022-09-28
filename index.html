@@ -44,8 +44,31 @@
 				<div class="backdrop is-hidden" data-modal>
 					<div class="modal">
 						<button data-modal-close class="close" type="button"><svg class="icon" width="11" height="11"><use href="./image/sprint.svg#icon-close"></use></svg></button>
-						<form class="form">
 							<p class="text">Залиште свої дані, ми вам передзвонимо</p>
+						<form class="form">
+							<ul class="list">
+							<li class="item">
+								<label for="name">Ім’я</label>
+								<input type="text" name="name" id="name">
+							</li>
+								<li class="item">
+								<label for="tel">Телефон</label>
+								<input type="tel" name="tel" id="tel">
+							</li>
+							<li class="item">
+								<label for="mail">Пошта</label>
+								<input type="email" name="mail" id="mail">
+							</li>
+							<li class="item">
+								<label for="comment">Коментар</label>
+								<textarea name="comment" id="comment" rows="5" placeholder="Введіть текст"></textarea>
+							</li>
+							</ul>
+							<div class="mailling">
+								<input type="checkbox" name="mailling">
+								<label for="mailling">Погоджуюся з розсилкою та приймаю <span><a href="index.html">Умови договору</a></span></label>
+							</div>
+							<button type="submit">Відправити</button>
 						</form>
 						</div>
 					</div>
