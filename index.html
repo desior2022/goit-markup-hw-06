@@ -49,26 +49,33 @@
 							<ul class="list">
 							<li class="item">
 								<label for="name">Ім’я</label>
-								<input type="text" name="name" id="name">
+								<span class="icon-form"><svg width="18" height="18"><use href="image/sprint.svg#icon-person"></use></svg></span>
+								<input class="input" type="text" name="name" id="name">
 							</li>
 								<li class="item">
 								<label for="tel">Телефон</label>
-								<input type="tel" name="tel" id="tel">
+								<span class="icon-form"><svg width="18" height="18">
+										<use href="image/sprint.svg#icon-phone"></use>
+									</svg></span>
+								<input class="input" type="tel" name="tel" id="tel">
 							</li>
 							<li class="item">
 								<label for="mail">Пошта</label>
-								<input type="email" name="mail" id="mail">
+								<span class="icon-form"><svg width="18" height="18">
+										<use href="image/sprint.svg#icon-email"></use>
+									</svg></span>
+								<input class="input" type="email" name="mail" id="mail">
 							</li>
 							<li class="item">
 								<label for="comment">Коментар</label>
-								<textarea name="comment" id="comment" rows="5" placeholder="Введіть текст"></textarea>
+								<textarea name="comment" id="comment" rows="7" placeholder="Введіть текст"></textarea>
 							</li>
 							</ul>
 							<div class="mailling">
 								<input type="checkbox" name="mailling">
-								<label for="mailling">Погоджуюся з розсилкою та приймаю <span><a href="index.html">Умови договору</a></span></label>
+								<label for="mailling">Погоджуюся з розсилкою та приймаю <span><a class="link" href="index.html">Умови договору</a></span></label>
 							</div>
-							<button type="submit">Відправити</button>
+							<button class="button-submit" type="submit">Відправити</button>
 						</form>
 						</div>
 					</div>
