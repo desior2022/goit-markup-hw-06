@@ -201,18 +201,12 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	display: block;
-	justify-content: end;
-	padding: 40px 0;
+	padding: 40px;
 	width: 528px;
 	height: 581px;
 	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 	border-radius: 4px;
 	background: var(--white-color);
-}
-.modal .form {
-	display: block;
-	padding: 0 32px;
 }
 .modal .close {
 	position: absolute;
@@ -285,7 +279,6 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .form .mailling {
 	display: flex;
 	align-items: center;
-	justify-content: center;
 	font-weight: 400;
 	font-size: 14px;
 	line-height: 1.71;
@@ -305,12 +298,12 @@ textarea {
 .form .check {
 	display: flex;
 	align-items: center;
-	justify-content: center;
 	width: 16px;
 	height: 15px;
 	border: 2px solid var(--primary-text-color);
 	border-radius: 2px;
 	margin-right: 7px;
+	margin-left: 14px;
 }
 .mailling input {
 	position: absolute;
@@ -336,8 +329,7 @@ input:checked + label .check {
 .form .button-submit {
 	display: block;
 	margin: 0 auto;
-	width: 200px;
-	height: 50px;
+	padding: 10px 52px;
 	background: var(--accent-color);
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 	border-radius: 4px;
@@ -347,6 +339,9 @@ input:checked + label .check {
 	line-height: 1.87;
 	letter-spacing: 0.06em;
 	color: var(--white-color);
+}
+.form .button-submit:hover {
+	background-color: #188ce8;
 }
 /* Section Skill */
 
